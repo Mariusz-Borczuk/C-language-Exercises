@@ -1,11 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-
-// Prepare a program that allows playing Rock-Paper-Scissors.
-// The program should save the results and moves of each round in an array,
-// and allow returning them to the terminal upon entering the appropriate command,
-// such as "scores" or something similar.
 
 //Constants 
 #define MAX_ROUNDS 5
@@ -23,7 +17,6 @@ int main() {
     int moves[MAX_ROUNDS];
 
     //Game loop
-    srand(time(NULL));
     printf("Welcome to the Rock-Paper-Scissors game!\n");
     //The game will run for a maximum of 5 rounds
     while (round < MAX_ROUNDS) {
