@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Write a function that displays Pascal's triangle o in the terminal
+// the height of N given as an argument.
 void displayPascalTriangle(int N) {
     int** triangle = (int**)malloc(N * sizeof(int*));
 

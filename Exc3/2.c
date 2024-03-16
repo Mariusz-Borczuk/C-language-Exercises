@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Write a program in C that dynamically allocates a two-dimensional matrix with sizes provided by the user,
+// fills it with random numbers, and then displays its contents on the screen. 
+// Finally, the program should correctly free the allocated memory.
+
 int main() {
     int rows, cols;
     
