@@ -1,7 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+/*Task 4: Sorting an array of structures
 
+- Define a `Student` structure that contains the name (as an array of characters) 
+and the final grade (as a floating point number).
+- Create an array of `Student` structures and initialize it with sample data.
+- Write a sorting function that takes a pointer to an array of `Student` 
+structures and its size and sorts students by their final grades in descending order.
+     - You can use a simple sorting algorithm, such as bubble sort.
+- In the `main` function, call the sort function and then output the sorted list of 
+students along with their grades. Try using the feature for more students. Minimum 100.*/
 // Define a structure called Student
 struct Student {
     char name[50];

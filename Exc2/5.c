@@ -2,7 +2,19 @@
 #include <string.h>
 
 #define MAX_CONTACTS 100
+/*### Task 5: Implementing a Simple Address Book
 
+- Define a `Contact` structure that contains first name, 
+last name (as an array of characters) and phone number (as an array of characters).
+- Create an array of `Contact` structures and initialize it with sample data.
+- Write functions to:
+     - Adding a new contact to the address book.
+     - Search for a contact by name.
+     - Delete a contact by name.
+     - Listing all contacts in the address book.
+- To make managing your contact board easier, you can set a fixed maximum board size and track the current number of contacts.
+- In the `main` function, implement a simple user interface to perform the above operations
+(add, find, remove, show all). (just use `scanf` asking what the user wants to do, or use [parsing input arguments](https://stackoverflow.com/questions/9642732/parsing-command-line-arguments-in-c))*/
 struct Contact {
     char firstName[50];
     char lastName[50];

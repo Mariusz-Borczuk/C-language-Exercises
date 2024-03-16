@@ -1,7 +1,7 @@
 #include <stdio.h>
-//- Define a function that takes a pointer to a variable of type **`float`** and 
+//- Define a function that takes a pointer to a variable of type `float` and 
 //modifies its value (e.g. doubles it).
-//- In the **`main`** function, create a variable of type **`float`**, pass a pointer 
+//- In the `main` function, create a variable of type `float`, pass a pointer 
 //to that variable to the function, and then print the new value of the variable.
 
 void modifyFloat(float *ptr) {
