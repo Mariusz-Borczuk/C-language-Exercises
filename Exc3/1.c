@@ -34,10 +34,8 @@ int main() {
 
     displayPascalTriangle(N);
     //wait 3sec
-    Sleep(3000);
-    
     printf("\nWaiting for key press...\n");
-    getchar();
+    scanf("%d");    
 
     return 0;
 }
